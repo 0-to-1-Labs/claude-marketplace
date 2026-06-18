@@ -22,6 +22,13 @@
       "description": "Wrap a prompt in <optimize>...</optimize> and it is rewritten into a sharper prompt before it runs (Claude Opus 4.8). Hook-based.",
       "version": "2.0.0",
       "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "frontend-design",
+      "source": "johnpsasser/claude-frontend-design",
+      "description": "Expanded, anti-AI-slop fork of the stock frontend-design skill — distinctive, production-grade UI with sharper triggering and richer typographic, color, spatial, and motion direction.",
+      "version": "1.0.0",
+      "author": { "name": "John P. Sasser" }
     }
   ]
 }
