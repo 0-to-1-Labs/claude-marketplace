@@ -15,6 +15,20 @@
       "description": "Starter plugin with a single example slash command",
       "version": "1.0.0",
       "author": { "name": "John Sasser" }
+    },
+    {
+      "name": "codex-pr-review",
+      "source": "johnpsasser/codex-pr-review",
+      "description": "Review a pull request using a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family grounded verifier and a deterministic lint/typecheck/test floor.",
+      "version": "2.0.0",
+      "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "claude-code-prompt-optimizer",
+      "source": "johnpsasser/claude-code-prompt-optimizer",
+      "description": "Wrap a prompt in <optimize>...</optimize> and it is rewritten into a sharper prompt before it runs (Claude Opus 4.8). Hook-based.",
+      "version": "2.0.0",
+      "author": { "name": "John P. Sasser" }
     }
   ]
 }
