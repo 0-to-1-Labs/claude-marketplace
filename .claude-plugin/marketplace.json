@@ -11,22 +11,29 @@
   "plugins": [
     {
       "name": "codex-pr-review",
-      "source": "johnpsasser/codex-pr-review",
+      "source": { "source": "github", "repo": "johnpsasser/codex-pr-review" },
       "description": "Review a pull request using a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family grounded verifier and a deterministic lint/typecheck/test floor.",
       "version": "2.0.0",
       "author": { "name": "John P. Sasser" }
     },
     {
       "name": "claude-code-prompt-optimizer",
-      "source": "johnpsasser/claude-code-prompt-optimizer",
+      "source": { "source": "github", "repo": "johnpsasser/claude-code-prompt-optimizer" },
       "description": "Wrap a prompt in <optimize>...</optimize> and it is rewritten into a sharper prompt before it runs (Claude Opus 4.8). Hook-based.",
       "version": "2.0.0",
       "author": { "name": "John P. Sasser" }
     },
     {
       "name": "frontend-design",
-      "source": "johnpsasser/claude-frontend-design",
-      "description": "Expanded, anti-AI-slop fork of the stock frontend-design skill — distinctive, production-grade UI with sharper triggering and richer typographic, color, spatial, and motion direction.",
+      "source": { "source": "github", "repo": "johnpsasser/claude-frontend-design" },
+      "description": "Expanded, anti-AI-slop fork of the stock frontend-design skill — distinctive, production-grade UI with sharper triggering, richer typographic/aesthetic direction, font-loading mechanics, a workflow, and a hard accessibility/responsive quality floor.",
+      "version": "1.1.0",
+      "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "nanobanana",
+      "source": { "source": "github", "repo": "johnpsasser/nanobanana" },
+      "description": "Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image). Auto-enhances prompts and supports aspect ratio, resolution, and reference-image editing.",
       "version": "1.0.0",
       "author": { "name": "John P. Sasser" }
     }
