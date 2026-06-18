@@ -27,6 +27,7 @@ Each entry has a `name`, a `source`, and a description.
 |--------|--------|-------------|
 | `codex-pr-review` | `johnpsasser/codex-pr-review` | PR review via a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family verifier and a deterministic lint/typecheck/test floor |
 | `claude-code-prompt-optimizer` | `johnpsasser/claude-code-prompt-optimizer` | Wrap a prompt in `<optimize>…</optimize>` to rewrite it into a sharper prompt before it runs (Claude Opus 4.8) |
+| `iac-diagram-generator` | `johnpsasser/iac-diagram-generator` | Generate professional cloud architecture diagrams from IaC (Terraform, CloudFormation, Kubernetes, Docker Compose) using Nano Banana Pro |
 
 ## Adding a plugin
 

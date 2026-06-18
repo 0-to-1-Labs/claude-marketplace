@@ -36,6 +36,13 @@
       "description": "Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image). Auto-enhances prompts and supports aspect ratio, resolution, and reference-image editing.",
       "version": "1.0.0",
       "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "iac-diagram-generator",
+      "source": { "source": "github", "repo": "johnpsasser/iac-diagram-generator" },
+      "description": "Analyzes Infrastructure as Code (Terraform, CloudFormation, Kubernetes, Docker Compose) and generates professional cloud architecture diagrams with Nano Banana Pro (Gemini 3 Pro Image).",
+      "version": "1.0.0",
+      "author": { "name": "John P. Sasser" }
     }
   ]
 }
