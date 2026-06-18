@@ -13,11 +13,10 @@ In Claude Code:
 Then browse and install:
 
 ```
-/plugin                              # interactive browser
-/plugin install hello-world@0to1-labs
+/plugin                                         # interactive browser
+/plugin install codex-pr-review@0to1-labs
+/plugin install claude-code-prompt-optimizer@0to1-labs
 ```
-
-Try the installed example with `/greet`.
 
 ## What's in here
 
@@ -26,7 +25,8 @@ Each entry has a `name`, a `source`, and a description.
 
 | Plugin | Source | Description |
 |--------|--------|-------------|
-| `hello-world` | `./plugins/hello-world` (in this repo) | Starter plugin with a `/greet` command |
+| `codex-pr-review` | `johnpsasser/codex-pr-review` | PR review via a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family verifier and a deterministic lint/typecheck/test floor |
+| `claude-code-prompt-optimizer` | `johnpsasser/claude-code-prompt-optimizer` | Wrap a prompt in `<optimize>…</optimize>` to rewrite it into a sharper prompt before it runs (Claude Opus 4.8) |
 
 ## Adding a plugin
 
@@ -36,11 +36,11 @@ or even this org:
 ```jsonc
 {
   "plugins": [
-    // 1. In this repo
-    { "name": "hello-world", "source": "./plugins/hello-world" },
-
-    // 2. Another GitHub repo (any owner/org)
+    // 1. Another GitHub repo (any owner/org) — how the current plugins are referenced
     { "name": "my-tool", "source": "some-owner/my-tool-plugin" },
+
+    // 2. In this repo
+    { "name": "in-repo-tool", "source": "./plugins/in-repo-tool" },
 
     // 3. Self-hosted Git (e.g. GitLab)
     {
