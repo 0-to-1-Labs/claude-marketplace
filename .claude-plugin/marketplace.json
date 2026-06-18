@@ -10,13 +10,6 @@
   },
   "plugins": [
     {
-      "name": "hello-world",
-      "source": "./plugins/hello-world",
-      "description": "Starter plugin with a single example slash command",
-      "version": "1.0.0",
-      "author": { "name": "John Sasser" }
-    },
-    {
       "name": "codex-pr-review",
       "source": "johnpsasser/codex-pr-review",
       "description": "Review a pull request using a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family grounded verifier and a deterministic lint/typecheck/test floor.",

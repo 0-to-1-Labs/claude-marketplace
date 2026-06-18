@@ -1,6 +1,0 @@
-{
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "Starter plugin with a single example slash command",
-  "author": { "name": "John Sasser" }
-}
