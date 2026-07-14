@@ -50,6 +50,13 @@
       "description": "Route a prompt to OpenAI Codex (gpt-5.6 sol/luna/terra) via /codex and get a synthesized answer back — like delegating to a subagent. Supports read-only advisory mode and workspace-write execution.",
       "version": "1.0.0",
       "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "memex",
+      "source": { "source": "github", "repo": "johnpsasser/memex" },
+      "description": "Context-aware documentation for Claude Code: a UserPromptSubmit hook that lexically retrieves and injects the most relevant doc sections under a token budget. Optional glossary pins; no keyword map required. OpenTelemetry-instrumented.",
+      "version": "1.0.0",
+      "author": { "name": "John P. Sasser" }
     }
   ]
 }
