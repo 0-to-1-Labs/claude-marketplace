@@ -45,6 +45,13 @@
       "author": { "name": "John P. Sasser" }
     },
     {
+      "name": "iac-security-scan",
+      "source": { "source": "github", "repo": "johnpsasser/iac-security-scan" },
+      "description": "Scans Infrastructure as Code (Terraform, CloudFormation) for security misconfigurations with a hybrid Checkov + Claude Opus engine, maps findings to NIST 800-53 / FedRAMP controls, and generates validated remediation IaC. SARIF/CI output, --fix with safety rails, --live verification. Pairs with iac-diagram-generator.",
+      "version": "1.0.0",
+      "author": { "name": "John P. Sasser" }
+    },
+    {
       "name": "codex-dispatch",
       "source": { "source": "github", "repo": "johnpsasser/codex-dispatch" },
       "description": "Route a prompt to OpenAI Codex (gpt-5.6 sol/luna/terra) via /codex and get a synthesized answer back — like delegating to a subagent. Supports read-only advisory mode and workspace-write execution.",
