@@ -72,7 +72,7 @@
       "name": "elevenlabs",
       "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/elevenlabs.git" },
       "description": "Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API. Zero-dependency Python script, key from ELEVENLABS_API_KEY, audio saved to disk. Adds a /say command and an auto-triggering skill.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": { "name": "John P. Sasser" }
     }
   ]
