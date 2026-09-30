@@ -6,7 +6,10 @@
   },
   "metadata": {
     "description": "0 to 1 Labs Claude Code plugin marketplace",
-    "version": "1.0.0"
+    "version": "1.1.0"
+  },
+  "renames": {
+    "nanobanana": "gemini"
   },
   "plugins": [
     {
@@ -31,10 +34,10 @@
       "author": { "name": "John P. Sasser" }
     },
     {
-      "name": "nanobanana",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/nanobanana.git" },
-      "description": "Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image). Auto-enhances prompts and supports aspect ratio, resolution, and reference-image editing.",
-      "version": "1.0.1",
+      "name": "gemini",
+      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/gemini.git" },
+      "description": "Google Gemini media skills: image generation and editing (Nano Banana Pro), video (Omni, Veo), music (Lyria), text-to-speech, and video/audio/PDF/YouTube understanding. One GEMINI_API_KEY, one skill per service.",
+      "version": "2.0.0",
       "author": { "name": "John P. Sasser" }
     },
     {

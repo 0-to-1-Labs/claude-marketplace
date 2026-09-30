@@ -31,7 +31,7 @@ Each entry has a `name`, a `source`, and a description.
 | `codex-pr-review` | `0-to-1-Labs/codex-pr-review` | PR review via a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family verifier and a deterministic lint/typecheck/test floor |
 | `claude-code-prompt-optimizer` | `0-to-1-Labs/claude-code-prompt-optimizer` | Wrap a prompt in `<optimize>…</optimize>` to rewrite it into a sharper prompt with the same model your session is running |
 | `frontend-design` | `0-to-1-Labs/claude-frontend-design` | Expanded fork of the stock frontend-design skill: distinctive, production-grade UI with a hard accessibility/responsive quality floor |
-| `nanobanana` | `0-to-1-Labs/nanobanana` | Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image) |
+| `gemini` | `0-to-1-Labs/gemini` | Gemini media skills: images (Nano Banana Pro), video (Omni, Veo), music (Lyria), text-to-speech, and media understanding. Was `nanobanana` |
 | `iac-diagram-generator` | `0-to-1-Labs/iac-diagram-generator` | Generate professional cloud architecture diagrams from IaC (Terraform, CloudFormation, Kubernetes, Docker Compose) using Nano Banana Pro |
 | `iac-security-scan` | `0-to-1-Labs/iac-security-scan` | Scan IaC (Terraform, CloudFormation) for security misconfigurations, map findings to NIST 800-53 / FedRAMP controls, and generate remediation IaC |
 | `codex-dispatch` | `0-to-1-Labs/codex-dispatch` | Route a prompt to OpenAI Codex via `/codex` and get a synthesized answer back |
@@ -70,6 +70,17 @@ auto-discovered from `commands/`, `agents/`, `skills/`, and `hooks/`.
 
 > Note: if a referenced plugin repo is **private**, anyone installing it still
 > needs read access to that repo.
+
+## Renamed plugins
+
+`nanobanana` became `gemini` in 2.0.0. The top-level `renames` map tells
+Claude Code (2.1.193 or later) about the change, and `/plugin` marks the old
+install as renamed. To finish the move:
+
+```
+/plugin marketplace update 0-to-1-labs
+/plugin install gemini@0-to-1-labs
+```
 
 ## License
 
