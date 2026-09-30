@@ -21,6 +21,25 @@ Then browse and install:
 The marketplace name is `0-to-1-labs`. Use it after the `@` for every plugin.
 Plugins are cloned over HTTPS, so no SSH key is needed.
 
+## Keep plugins updated
+
+Claude Code can update these plugins automatically. Auto-update is off by default
+for third-party marketplaces, so turn it on once:
+
+1. Run `/plugin`.
+2. Open the **Marketplaces** tab and select `0-to-1-labs`.
+3. Choose **Enable auto-update**.
+
+Claude Code then checks for new versions after each session start and installs
+them. Restart Claude Code to load an update.
+
+To update by hand:
+
+```
+claude plugin marketplace update 0-to-1-labs
+claude plugin update <plugin>@0-to-1-labs
+```
+
 ## What's in here
 
 The catalog lives in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
