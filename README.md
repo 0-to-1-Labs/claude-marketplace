@@ -28,14 +28,14 @@ Each entry has a `name`, a `source`, and a description.
 
 | Plugin | Source | Description |
 |--------|--------|-------------|
-| `codex-pr-review` | `johnpsasser/codex-pr-review` | PR review via a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family verifier and a deterministic lint/typecheck/test floor |
-| `claude-code-prompt-optimizer` | `johnpsasser/claude-code-prompt-optimizer` | Wrap a prompt in `<optimize>…</optimize>` to rewrite it into a sharper prompt with the same model your session is running |
-| `frontend-design` | `johnpsasser/claude-frontend-design` | Expanded fork of the stock frontend-design skill: distinctive, production-grade UI with a hard accessibility/responsive quality floor |
-| `nanobanana` | `johnpsasser/nanobanana` | Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image) |
-| `iac-diagram-generator` | `johnpsasser/iac-diagram-generator` | Generate professional cloud architecture diagrams from IaC (Terraform, CloudFormation, Kubernetes, Docker Compose) using Nano Banana Pro |
-| `iac-security-scan` | `johnpsasser/iac-security-scan` | Scan IaC (Terraform, CloudFormation) for security misconfigurations, map findings to NIST 800-53 / FedRAMP controls, and generate remediation IaC |
-| `codex-dispatch` | `johnpsasser/codex-dispatch` | Route a prompt to OpenAI Codex via `/codex` and get a synthesized answer back |
-| `memex` | `johnpsasser/memex` | Context-aware documentation: a hook that retrieves and injects the most relevant doc sections under a token budget |
+| `codex-pr-review` | `0-to-1-Labs/codex-pr-review` | PR review via a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family verifier and a deterministic lint/typecheck/test floor |
+| `claude-code-prompt-optimizer` | `0-to-1-Labs/claude-code-prompt-optimizer` | Wrap a prompt in `<optimize>…</optimize>` to rewrite it into a sharper prompt with the same model your session is running |
+| `frontend-design` | `0-to-1-Labs/claude-frontend-design` | Expanded fork of the stock frontend-design skill: distinctive, production-grade UI with a hard accessibility/responsive quality floor |
+| `nanobanana` | `0-to-1-Labs/nanobanana` | Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image) |
+| `iac-diagram-generator` | `0-to-1-Labs/iac-diagram-generator` | Generate professional cloud architecture diagrams from IaC (Terraform, CloudFormation, Kubernetes, Docker Compose) using Nano Banana Pro |
+| `iac-security-scan` | `0-to-1-Labs/iac-security-scan` | Scan IaC (Terraform, CloudFormation) for security misconfigurations, map findings to NIST 800-53 / FedRAMP controls, and generate remediation IaC |
+| `codex-dispatch` | `0-to-1-Labs/codex-dispatch` | Route a prompt to OpenAI Codex via `/codex` and get a synthesized answer back |
+| `memex` | `0-to-1-Labs/memex` | Context-aware documentation: a hook that retrieves and injects the most relevant doc sections under a token budget |
 | `elevenlabs` | `0-to-1-Labs/elevenlabs` | Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API; `/say` command plus an auto-triggering skill |
 
 ## Adding a plugin
