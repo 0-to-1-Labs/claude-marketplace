@@ -13,7 +13,7 @@
       "name": "codex-pr-review",
       "source": { "source": "url", "url": "https://github.com/johnpsasser/codex-pr-review.git" },
       "description": "Review a pull request using a dual-family pipeline (OpenAI Codex + Claude Opus) with a cross-family grounded verifier and a deterministic lint/typecheck/test floor.",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "author": { "name": "John P. Sasser" }
     },
     {
@@ -34,7 +34,7 @@
       "name": "nanobanana",
       "source": { "source": "url", "url": "https://github.com/johnpsasser/nanobanana.git" },
       "description": "Generate and edit photorealistic images with perfect text rendering using Nano Banana Pro (Gemini 3 Pro Image). Auto-enhances prompts and supports aspect ratio, resolution, and reference-image editing.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "John P. Sasser" }
     },
     {
@@ -48,7 +48,7 @@
       "name": "iac-security-scan",
       "source": { "source": "url", "url": "https://github.com/johnpsasser/iac-security-scan.git" },
       "description": "Scans Infrastructure as Code (Terraform, CloudFormation) for security misconfigurations with a hybrid Checkov + Claude Opus engine, maps findings to NIST 800-53 / FedRAMP controls, and generates validated remediation IaC. SARIF/CI output, --fix with safety rails, --live verification. Pairs with iac-diagram-generator.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "John P. Sasser" }
     },
     {
@@ -62,7 +62,7 @@
       "name": "memex",
       "source": { "source": "url", "url": "https://github.com/johnpsasser/memex.git" },
       "description": "Context-aware documentation for Claude Code: a UserPromptSubmit hook that lexically retrieves and injects the most relevant doc sections under a token budget. Optional glossary pins; no keyword map required. OpenTelemetry-instrumented.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "John P. Sasser" }
     }
   ]
