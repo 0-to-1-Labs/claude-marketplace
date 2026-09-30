@@ -36,6 +36,7 @@ Each entry has a `name`, a `source`, and a description.
 | `iac-security-scan` | `johnpsasser/iac-security-scan` | Scan IaC (Terraform, CloudFormation) for security misconfigurations, map findings to NIST 800-53 / FedRAMP controls, and generate remediation IaC |
 | `codex-dispatch` | `johnpsasser/codex-dispatch` | Route a prompt to OpenAI Codex via `/codex` and get a synthesized answer back |
 | `memex` | `johnpsasser/memex` | Context-aware documentation: a hook that retrieves and injects the most relevant doc sections under a token budget |
+| `elevenlabs` | `0-to-1-Labs/elevenlabs` | Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API; `/say` command plus an auto-triggering skill |
 
 ## Adding a plugin
 

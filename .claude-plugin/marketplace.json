@@ -64,6 +64,13 @@
       "description": "Context-aware documentation for Claude Code: a UserPromptSubmit hook that lexically retrieves and injects the most relevant doc sections under a token budget. Optional glossary pins; no keyword map required. OpenTelemetry-instrumented.",
       "version": "1.0.1",
       "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "elevenlabs",
+      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/elevenlabs.git" },
+      "description": "Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API. Zero-dependency Python script, key from ELEVENLABS_API_KEY, audio saved to disk. Adds a /say command and an auto-triggering skill.",
+      "version": "1.0.0",
+      "author": { "name": "John P. Sasser" }
     }
   ]
 }
