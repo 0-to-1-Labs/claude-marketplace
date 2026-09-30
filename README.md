@@ -69,3 +69,8 @@ auto-discovered from `commands/`, `agents/`, `skills/`, and `hooks/`.
 
 > Note: if a referenced plugin repo is **private**, anyone installing it still
 > needs read access to that repo.
+
+## License
+
+This catalog is MIT licensed. See [LICENSE](LICENSE). Each plugin has its own
+license in its own repo.
