@@ -6,81 +6,121 @@
   },
   "metadata": {
     "description": "0 to 1 Labs Claude Code plugin marketplace",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "renames": {
-    "nanobanana": "gemini"
+    "nanobanana": "gemini",
+    "iac-diagram-generator": "iac-tools",
+    "iac-security-scan": "iac-tools"
   },
   "plugins": [
     {
       "name": "codex-pr-review",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/codex-pr-review.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/codex-pr-review.git"
+      },
       "description": "Review a pull request using a dual-family pipeline (OpenAI Codex + Claude) with a cross-family grounded verifier and a deterministic lint/typecheck/test floor.",
       "version": "2.1.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "claude-code-prompt-optimizer",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/claude-code-prompt-optimizer.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/claude-code-prompt-optimizer.git"
+      },
       "description": "Wrap a prompt in <optimize>...</optimize> and it is rewritten into a sharper prompt by the same model your session is running. Hook-based (UserPromptSubmit).",
       "version": "2.2.1",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "frontend-design",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/claude-frontend-design.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/claude-frontend-design.git"
+      },
       "description": "Drop-in replacement for Anthropic's frontend-design skill, built on the September 2026 upstream, plus a design-direction statement, font-loading mechanics, and a concrete accessibility and responsive quality floor.",
       "version": "2.0.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "gemini",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/gemini.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/gemini.git"
+      },
       "description": "Google Gemini media skills for Claude Code: image generation and editing (Nano Banana Pro), video (Omni, Veo), music (Lyria), text-to-speech, and video/audio/PDF/YouTube understanding. One GEMINI_API_KEY, one skill per service.",
       "version": "2.1.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
-      "name": "iac-diagram-generator",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/iac-diagram-generator.git" },
-      "description": "Analyzes Infrastructure as Code (Terraform, CloudFormation, Kubernetes, Docker Compose) and generates professional cloud architecture diagrams with Nano Banana Pro (Gemini 3 Pro Image).",
-      "version": "1.1.0",
-      "author": { "name": "John P. Sasser" }
-    },
-    {
-      "name": "iac-security-scan",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/iac-security-scan.git" },
-      "description": "Scans Terraform and CloudFormation for security misconfigurations (Kubernetes and Compose: findings only), maps findings to NIST 800-53 / FedRAMP controls, and generates validated remediation IaC.",
-      "version": "1.1.0",
-      "author": { "name": "John P. Sasser" }
+      "name": "iac-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/iac-tools.git"
+      },
+      "description": "Infrastructure as Code toolkit: security-scan (Checkov floor plus LLM analysis, NIST 800-53 / FedRAMP mapping, validated remediation, SARIF), threat-model (STRIDE threats and attack paths derived from the resource graph), and diagram-generator (architecture diagrams with Nano Banana). Terraform, CloudFormation, Kubernetes, Docker Compose. Replaces iac-security-scan and iac-diagram-generator.",
+      "version": "2.0.0",
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "codex-dispatch",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/codex-dispatch.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/codex-dispatch.git"
+      },
       "description": "Route a prompt to OpenAI Codex (GPT-6 sol/astra/luna) via /codex and get a synthesized answer back — like delegating to a subagent. Read-only by default; write mode only on request.",
       "version": "2.0.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "memex",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/memex.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/memex.git"
+      },
       "description": "Context-aware documentation for Claude Code: a UserPromptSubmit hook that lexically retrieves and injects the most relevant doc sections (docs/ plus root *.md by default) under a token budget. Optional glossary pins; no keyword map required.",
       "version": "2.0.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "elevenlabs",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/elevenlabs.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/elevenlabs.git"
+      },
       "description": "Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API. Zero-dependency Python script, key from ELEVENLABS_API_KEY, audio saved to disk. Adds a /say command and an auto-triggering skill.",
       "version": "1.0.2",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     },
     {
       "name": "xcode-development",
-      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/xcode-development.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0-to-1-Labs/xcode-development.git"
+      },
       "description": "Factory for personal and family iPhone/iPad apps and games with Xcode 27: /xcode-development:init scaffolds a workspace, new-app creates an XcodeGen app or SpriteKit game with tests, lint, hooks, and CI, plus skills for build, simulator, device install, TDD loop, review, and remote Macs. Privacy-first, free Personal Team signing, Xcode 27 MCP tools.",
       "version": "1.0.0",
-      "author": { "name": "John P. Sasser" }
+      "author": {
+        "name": "John P. Sasser"
+      }
     }
   ]
 }
