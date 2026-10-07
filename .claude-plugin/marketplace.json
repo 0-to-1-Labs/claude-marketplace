@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "0 to 1 Labs Claude Code plugin marketplace",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "renames": {
     "nanobanana": "gemini"
@@ -73,6 +73,13 @@
       "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/elevenlabs.git" },
       "description": "Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API. Zero-dependency Python script, key from ELEVENLABS_API_KEY, audio saved to disk. Adds a /say command and an auto-triggering skill.",
       "version": "1.0.2",
+      "author": { "name": "John P. Sasser" }
+    },
+    {
+      "name": "xcode-development",
+      "source": { "source": "url", "url": "https://github.com/0-to-1-Labs/xcode-development.git" },
+      "description": "Factory for personal and family iPhone/iPad apps and games with Xcode 27: /xcode-development:init scaffolds a workspace, new-app creates an XcodeGen app or SpriteKit game with tests, lint, hooks, and CI, plus skills for build, simulator, device install, TDD loop, review, and remote Macs. Privacy-first, free Personal Team signing, Xcode 27 MCP tools.",
+      "version": "1.0.0",
       "author": { "name": "John P. Sasser" }
     }
   ]

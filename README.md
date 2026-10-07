@@ -56,6 +56,7 @@ Each entry has a `name`, a `source`, and a description.
 | `codex-dispatch` | `0-to-1-Labs/codex-dispatch` | Route a prompt to OpenAI Codex (GPT-6 sol/astra/luna) via `/codex` and get a synthesized answer back; read-only by default |
 | `memex` | `0-to-1-Labs/memex` | Context-aware documentation: a hook that retrieves and injects the most relevant doc sections under a token budget |
 | `elevenlabs` | `0-to-1-Labs/elevenlabs` | Text-to-speech, speech-to-text (Scribe v2), and sound effects with the ElevenLabs API; `/say` command plus an auto-triggering skill |
+| `xcode-development` | `0-to-1-Labs/xcode-development` | Factory for personal and family iPhone/iPad apps and games with Xcode 27: `/xcode-development:init` scaffolds a workspace, `new-app` creates an XcodeGen app or SpriteKit game with tests, lint, hooks, and CI; skills for build, simulator, device install, TDD loop, review, and remote Macs |
 
 ## Adding a plugin
 
